@@ -54,7 +54,7 @@ const AccountPage = () => {
   }, [accounts])
 
   const onDelClick = () => {
-    deleteAccount(id).then(data => {
+    deleteAccount(id, user.id).then(data => {
       dispatch(setAccountsAC(data))
     })
     navigate(ACCOUNTS_ROUTE)

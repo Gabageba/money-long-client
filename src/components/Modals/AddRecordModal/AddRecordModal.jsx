@@ -36,7 +36,7 @@ const AddRecordModal = ({active, setActive, isEdit, recData, isImport, categ, mo
       })
 
       const money = recAcc === '-' ? Number(currentAccount.money) - Number(selectedSum) : Number(currentAccount.money) + Number(selectedSum)
-      updateAccount(currentAccount.id, null, null, money).then(data => {
+      updateAccount(currentAccount.id, null, null, money, null, user.id).then(data => {
         dispatch(setAccountsAC(data))
       })
     }

@@ -64,7 +64,7 @@ const AddAccountModal = ({active, setActive, isEdit, name, color, type, sum, acc
       setErrorText('Пожалуйста заполните все поля')
     } else {
       if (isEdit) {
-        updateAccount(accountId, selectedName, selectedColor.color, selectedSum, selectedType.id).then(data => {
+        updateAccount(accountId, selectedName, selectedColor.color, selectedSum, selectedType.id, user.id).then(data => {
           dispatch(setAccountsAC(data))
           setActive(false)
         })
