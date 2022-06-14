@@ -8,7 +8,7 @@ export const REGISTRATION_ROUTE = '/registration'
 export const ACCOUNT_PAGE_ROUTE = '/account'
 export const IMPORT_ROUTE = '/import'
 
-export const REACT_APP_API_URL='http://app.money-long.ru/'
+export const REACT_APP_API_URL='http://45.84.227.197:5000/'
 
 
 
