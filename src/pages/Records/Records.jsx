@@ -54,7 +54,7 @@ const Records = () => {
     fetchCategory().then(data => {
       dispatch(setCategoryAC(data))
     })
-    fetchRecord(user.id, ).then(data => {
+    fetchRecord(user.id ).then(data => {
       dispatch(setRecordAC(data))
     })
     fetchAccountType().then(data => {
