@@ -23,7 +23,7 @@ const AddRecordModal = ({active, setActive, isEdit, recData, isImport, categ, mo
 
   const click = () => {
     if (isEdit) {
-      updateRecord(recData.id, recAcc, selectedSum, currentAccount.id, selectedCategory.id).then(data => {
+      updateRecord(recData.id, recAcc, selectedSum, currentAccount.id, selectedCategory.id, user.id).then(data => {
         dispatch(setRecordAC(data))
         setActive(false)
         clear()

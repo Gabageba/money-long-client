@@ -8,13 +8,14 @@ import {updateAccount} from '../../http/accountAPI';
 import {setAccountsAC} from '../../redux/accountReducer';
 
 const RecordCard = ({record}) => {
+  const user = useSelector(state => state.user.user)
   const categories = useSelector(state => state.category.categories)
   const accounts = useSelector(state => state.account.accounts)
   const [active, setActive] = useState(false)
   const dispatch = useDispatch()
   const fmtSum =  new Intl.NumberFormat('ru-RU').format(record.money);
   const deleteClick = () => {
-    deleteRecord(record.id).then(data => {
+    deleteRecord(record.id, user.id).then(data => {
       dispatch(setRecordAC(data))
     })
   }
