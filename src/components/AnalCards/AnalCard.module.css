@@ -1,0 +1,48 @@
+.icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.icon span {
+  font-size: 25px;
+  color: white;
+  margin-top: 7px;
+  margin-left: 7px;
+}
+
+.card {
+  padding: 10px 0px;
+  /*border: 1px solid #7F8FA4;*/
+  border-radius: 7px;
+  display: flex;
+  position: relative;
+}
+
+.expenses {
+  color: #d10000;
+  font-family: Roboto, serif;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: right;
+  position: absolute;
+  left: 65%;
+  top: 20px;
+}
+
+.inCome {
+  color: #14C58B;
+  font-family: Roboto, serif;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: right;
+  position: absolute;
+  left: 85%;
+  top: 20px;
+}
+
+.name {
+  margin-top: 8px;
+  margin-left: 5px;
+}

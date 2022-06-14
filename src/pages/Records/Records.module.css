@@ -1,0 +1,123 @@
+.period {
+  border-left: 1px solid #a2b0c5;
+  border-bottom: 1px solid #a2b0c5;
+  border-right: 1px solid #a2b0c5;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  position: absolute;
+  width: 250px;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+  z-index: 1000;
+}
+
+.selectedFilter {
+  height: 36px;
+  cursor: pointer;
+  font-family: Roboto, serif;
+  font-weight: 400;
+  width: 250px;
+  font-size: 17px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 15px;
+  margin-top: 5px;
+  border-radius: 7px;
+  outline: 0;
+  color: #445269;
+  box-sizing: border-box;
+  border: 1px solid #a2b0c5;
+
+}
+
+.arrow {
+  position: absolute;
+  right: 72%;
+  top: 11px;
+  color: #282c34;
+}
+
+.selectedFilterActive {
+  height: 36px;
+  cursor: pointer;
+  font-family: Roboto, serif;
+  font-weight: 400;
+  width: 250px;
+  font-size: 17px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 15px;
+  margin-top: 5px;
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+  border-bottom: none;
+  outline: 0;
+  color: #445269;
+  box-sizing: border-box;
+  border-top: 1px solid #a2b0c5;
+  border-left: 1px solid #a2b0c5;
+  border-right: 1px solid #a2b0c5;
+}
+
+.filterBlockActive {
+  font-family: Roboto, serif;
+  display: flex;
+  font-weight: 400;
+  font-size: 17px;
+  margin-top: 10px;
+  margin-left: 5px;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.filterBlock {
+  font-family: Roboto, serif;
+  display: flex;
+  font-size: 17px;
+  font-weight: 400;
+  margin-top: 10px;
+  opacity: 0.7;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  grid-gap: 20px;
+}
+
+
+.filterBlock:hover {
+  opacity: 1;
+}
+
+.records {
+  font-size: 30px;
+  font-weight: 700;
+  color: #282c34;
+}
+
+.addButton {
+  font-family: Roboto, serif;
+  font-size: 17px;
+  margin-top: 30px;
+  width: 180px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  background-color: #14C58B;
+  color: #fff;
+  border-radius: 40px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+/*.addButton:hover {*/
+/*  background-color: #fff;*/
+/*  color: #14C58B;*/
+/*  border: 1px solid #14C58B;*/
+/*  box-sizing: border-box;*/
+/*}*/

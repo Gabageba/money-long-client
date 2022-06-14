@@ -1,0 +1,37 @@
+.flex{
+    display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-row-gap: 15px;
+
+  margin-top: 40px;
+}
+.fon{
+    /*background-color: #EFF0F2;*/
+    left: 0px;
+    width: 100%;
+}
+
+.showSovet {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.showSovet:hover {
+  color: #14C58B;
+}
+
+.button{
+    display: flex;
+    font-family: 'Poiret One', cursive;
+    font-size: 15px;
+    background-color: #EFF0F2;
+    border-radius: 7px;
+    border: 2px dashed #282c34;
+    color: #282c34;
+    height: 60px;
+    width: 300px;
+    margin-left: 10px;
+    margin-top: 40px;
+}

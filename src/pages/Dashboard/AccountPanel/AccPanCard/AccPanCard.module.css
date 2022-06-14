@@ -1,0 +1,43 @@
+.card {
+/*border: 1px solid black;*/
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+/*{border: '1px solid black', width: '90%', textAlign:}*/
+  position: relative;
+  cursor: pointer;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  /*border-radius: 50%;*/
+  border-radius: 7px;
+  margin-right: 10px;
+}
+
+.icon span {
+  font-size: 25px;
+  color: white;
+  margin-top: 7px;
+  margin-left: 7px;
+}
+
+.money{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-weight: 500;
+}
+
+.name {
+  font-weight: 500;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  color: #282c34;
+}
+
+.type {
+  color: #7F8FA4;
+}

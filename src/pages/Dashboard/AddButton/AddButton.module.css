@@ -1,0 +1,23 @@
+.addButton {
+  height: 60px;
+  width: 320px;
+  font-family: Roboto, serif;
+  font-weight: 300;
+  font-size: 15px;
+  border-radius: 7px;
+  border: 2px dashed #a2b0c5;
+  color: #A2B0C5FF;
+  text-align: center;
+  box-sizing: border-box;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.addButton:hover {
+  border: 2px dashed #007AFF;
+  color: #007AFF;
+}
+
+.buttonName {
+  padding-top: 19px;
+}

@@ -1,0 +1,87 @@
+.logo {
+  width: 42px;
+  height: 42px;
+  margin-right: 0.5rem;
+  margin-top: -10px;
+}
+
+.ul {
+  display: flex;
+  list-style-type: none;
+  padding-left: 12px;
+
+
+}
+
+.li {
+  margin-top: 10px;
+  margin-right: 30px;
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+  /*opacity: 0.7;*/
+
+  text-shadow: black;
+}
+
+.li a {
+  font-weight: 500;
+}
+
+.li:hover a {
+  color: #282c34;
+  /*font-weight: 700;*/
+}
+
+.navLink {
+  text-decoration: none;
+  color: #7F8FA4;
+
+}
+
+.activeLink {
+  text-decoration: none;
+  color: #14C58B;
+}
+
+.header {
+  position: relative;
+  z-index: 20;
+}
+
+
+.right {
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0px;
+}
+
+.addPost {
+  font-family: Roboto, serif;
+  font-size: 12px;
+  height: 25px;
+  background-color: #007AFF;
+  border-radius: 15px;
+  color: #fff;
+  border: none;
+  padding: 0px 15px 1px;
+  /*opacity: 0.7;*/
+  cursor: pointer;
+  margin-top: 12px;
+  margin-right: 20px;
+}
+
+.addPost:hover {
+  background-color: #0163cb;
+}
+
+.line {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  width: 100%;
+  border-bottom: 1px solid #E5E9ED;
+  /*z-index: 100;*/
+
+
+}

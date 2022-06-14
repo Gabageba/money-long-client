@@ -1,0 +1,31 @@
+.panel{
+  display: flex;
+  font-family: Roboto, serif;
+  font-size: 15px;
+  background-color: #E5E9ED;
+  border: 1px solid #a2b0c5;
+  border-radius: 7px;
+  color: #282c34;
+  height: 350px;
+  width: 600px;
+  max-height: 345px;
+  overflow: hidden;
+  margin-top: 60px;
+  margin-left: 10px;
+}
+
+.text {
+  font-size: 18px;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.line{
+  display: flex;
+  position: fixed;
+  margin-top: 40px;
+  width: 420px;
+  border-bottom: 1px solid #a2b0c5;
+  margin-left: 10px;
+
+
+}

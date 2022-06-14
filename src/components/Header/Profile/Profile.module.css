@@ -1,0 +1,42 @@
+.profile {
+  width: 50px;
+  cursor: pointer;
+}
+
+.dropDownContent {
+  display: none;
+  position: absolute;
+  width: 184px;
+}
+
+.dropDownContentActive {
+  display: block;
+  position: absolute;
+  width: 150px;
+  z-index: 1;
+  /*margin-left: 100px;*/
+  /*padding-top: 10px;*/
+  border: 1px solid #a2b0c5;
+  border-radius: 7px;
+  right: 0;
+}
+
+.dropDownLink {
+  font-family: Roboto, serif;
+  text-decoration: none;
+  font-size: 14px;
+  color: #282c34;
+  opacity: 0.7;
+  font-weight: 600;
+  line-height: 17px;
+  display: block;
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  cursor: pointer;
+}
+
+.dropDownLink:hover {
+  opacity: 1;
+}

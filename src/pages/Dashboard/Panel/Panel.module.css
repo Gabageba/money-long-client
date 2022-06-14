@@ -1,0 +1,32 @@
+.panel{
+    display: flex;
+    font-family: 'Poiret One', cursive;
+    font-size: 15px;
+    background-color: #282c34;
+    border-radius: 6px;
+    color: #fff;
+    height: 350px;
+    width: 600px;
+    margin-top: 60px;
+    margin-left: 10px;
+    border-radius: 10px ;
+}
+.panel:hover{
+    transform: scale(1.03);
+}
+
+.text {
+    font-size: 15px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.line{
+    display: flex;
+    position: fixed;
+    margin-top: 40px;
+    width: 420px;
+    border-bottom: 2px solid #EFF0F2;
+    margin-left: 10px;
+
+
+}

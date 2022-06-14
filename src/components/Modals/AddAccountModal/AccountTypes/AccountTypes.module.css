@@ -1,0 +1,121 @@
+.head {
+  font-family: Roboto, serif;
+  font-size: 17px;
+  margin-left: 3px;
+  color: #282c34;
+}
+
+.name {
+  font-family: Roboto, serif;
+  color: #282c34;
+  font-weight: 400;
+  margin-top: 4px;
+}
+
+.arrow {
+  position: absolute;
+  right: 2px  ;
+  top: 5px;
+  color: #282c34;
+}
+
+.arrow span {
+  font-size: 30px;
+}
+
+.icon {
+  width: 28px;
+  height: 28px;
+  background-color: #a2b0c5;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.typeBlock {
+  display: flex;
+  margin-top: 10px;
+  opacity: 0.7;
+  margin-left: 4px;
+  cursor: pointer;
+}
+
+.typeBlockActive {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 5px;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.options {
+  border-left: 1px solid #a2b0c5;
+  border-bottom: 1px solid #a2b0c5;
+  border-right: 1px solid #a2b0c5;
+  /*border: 1px solid #a2b0c5;*/
+  padding-bottom: 10px;
+  padding-left: 10px;
+  position: absolute;
+  width: 400px;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+
+.typeBlock:hover {
+  opacity: 1;
+}
+
+.icon span {
+  font-size: 22px;
+  color: white;
+  margin-top: 3px;
+  margin-left: 3px;
+}
+
+.inputActive {
+  font-weight: 500;
+  display: flex;
+  position: relative;
+  font-family: Roboto, serif;
+  /*font-weight: 300;*/
+  /*width: 250px;*/
+  width: 100%;
+  height: 40px;
+  font-size: 17px;
+  cursor: pointer;
+  padding-top: 6px;
+  padding-bottom: 7px;
+  padding-left: 15px;
+  margin-top: 5px;
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+  outline: 0;
+  color: #445269;
+  box-sizing: border-box;
+  border-top: 1px solid #a2b0c5;
+  border-left: 1px solid #a2b0c5;
+  border-right: 1px solid #a2b0c5;
+}
+
+
+.input {
+  display: flex;
+  position: relative;
+  font-family: Roboto, serif;
+  font-weight: 500;
+  /*width: 250px;*/
+  width: 100%;
+  height: 40px;
+  font-size: 17px;
+  cursor: pointer;
+  padding-top: 6px;
+  padding-bottom: 7px;
+  padding-left: 15px;
+  margin-top: 5px;
+  border-radius: 7px;
+  outline: 0;
+  color: #445269;
+  box-sizing: border-box;
+  border: 1px solid #a2b0c5;
+}
